@@ -1,0 +1,66 @@
+@media(max-width:700px) {
+    
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .text-box p {
+
+    margin: 10px 0 40px;
+    font-size: 14px;
+  } 
+
+  .nav-links ul li {
+    display: block;
+       
+    }
+
+    .nav-links {
+
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+
+        }
+
+        nav .fa {
+            display: block;
+            color: #fff;
+            margin: 10px;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+ .nav-links ul {
+
+    padding: 30px;
+ } 
+
+}
+
+
+
+
+<script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+
+    </script>
+
+
+
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="comprar.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+  </style>
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+  <title>Booking</title>
+</head>
+
+<body>
+
+  <section class="header">
+    <nav>
+      <a href="menu.html"><img src="Imagens/plane.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="Reservas.html">Guest</a></li>
+          <li><a href="blog.html">About Us</a></li>
+          <li><a href="Hoteis 1.html">Hotel</a></li>
+          <li><a href="job.html">Careers</a></li>
+          <li><a href="create accou.html">Create Account</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+  </section>
+  =
+  <div class="text-box">
+    <h1>Book your Travel</h1>
+
+  </div>
+  </section>
+
+  <section class="book">
+    <div class="container flex">
+      <div class="input grid">
+        <div class="box">
+          <label>Check-in:</label>
+          <input type="date" placeholder="Check-in-Date">
+        </div>
+        <div class="box">
+          <label>Check-out:</label>
+          <input type="date" placeholder="Check-out-Date">
+        </div>
+        <div class="box">
+          <label>Adults:</label> <br>
+          <input type="number" placeholder="0">
+        </div>
+        <div class="box">
+          <label>Children:</label> <br>
+          <input type="number" placeholder="0">
+        </div>
+        <div class="box">
+          <label>From:</label> <br>
+          <input type="text" >
+        </div>
+        <div class="box">
+          <label>To:</label> <br>
+          <input type="text" >
+        </div>
+
+      </div>
+      <div class="search">
+        <button type="button" value="Search" ><a href="menu.html">Search</a></button>
+      </div>
+    </div>
+  </section>
+  
+
+  <section class="footer">
+
+    <nav>
+      <a href="menu.html"><img src="Imagens/plane.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="blog.html">About Us</a></li>
+          <li><a href="rating.html">Rate Us</a></li>
+          <li><a href="termsosservice.html">Terms of service</a></li>
+          <li><a href="Contacos.html">Contacts</a></li>
+
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+
+  </section>
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+
+
+  </script>
+
+</body>
+
+</html>

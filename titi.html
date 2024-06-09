@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+    </style>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>Agencia de Viagens</title>
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="menu.html"><img src="Imagens/plane.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Reservas.html">Guest</a></li>
+                    <li><a href="blog.html">About Us</a></li>
+                    <li><a href="Hoteis 1.html">Hotel</a></li>
+                    <li><a href="job.html">Careers</a></li>
+                    <li><a href="create accou.html">Create Account</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+    </section>
+    =
+    <div class="text-box">
+        <h1>Travel and Data</h1>
+
+    </div>
+    </section>
+
+
+    <section class="blog-content">
+
+        <div class="row">
+
+            <div class="blog-left">
+                <img src="Imagens/Data-Science-and-Travel-Industry.jpg">
+                <h2>The Main Picture is...</h2>
+                <p>As technology continues to advance, the travel industry has become increasingly data-driven. With the
+                    amount of information available to us today, it has never been easier to plan and book a trip.
+                    However, this data can also be overwhelming, and it can be difficult to know where to start.</p>
+                <p>At XYZ Travel Agency, we believe that data is a powerful tool that can help us to provide our
+                    customers with the best possible travel experiences. By analyzing data from various sources, such as
+                    customer reviews, social media, and booking history, we can gain valuable insights into what our
+                    customers want and need.</p>
+                <p>We also use data to track trends in the travel industry, such as popular destinations, peak travel
+                    seasons, and pricing fluctuations. This allows us to stay ahead of the curve and offer our customers
+                    the best deals and promotions.</p>
+                <p>Ultimately, our goal is to use data to make the travel planning process as simple and stress-free as
+                    possible. By analyzing data and providing personalized recommendations, we can take the guesswork
+                    out of planning a trip and help our customers to focus on what matters most - creating unforgettable
+                    memories.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+
+        <nav>
+            <a href="menu.html"><img src="Imagens/plane.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="blog.html">About Us</a></li>
+                    <li><a href="termsosservice.html">Terms of service</a></li>
+                    <li><a href="Contacos.html">Contacts</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>

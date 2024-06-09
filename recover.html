@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="estilos.css">
+<head>
+    <section class="header">
+        <nav>
+            <a href="menu.html"><img src="Imagens/plane.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Guest</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="#">Voyage Packets</a></li>
+                    <li><a href="job.html">Careers</a></li>
+                    <li><a href="rating.html">Rate us</a></li>
+                    <li><a href="create accou.html">Create Account</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <title>Forgot Password</title>
+    <style>
+      /* Styling for the entire page */
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+  /* Styling for the header */
+  h1 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 50px;
+  }
+  
+  /* Styling for the form */
+  form {
+    margin: 0 auto;
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Styling for the form labels */
+  label {
+    font-size: 1.2em;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the form input fields */
+  input[type=email], input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 1.2em;
+  }
+  
+  /* Styling for the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+</style>
+  </head>
+  <body>
+    <h1>Forgot Password</h1>
+    <form action="/forgot-password" method="post">
+        <form method="posto">
+            <div class="texto_field">
+                <input type="New password" required>
+                <span></span>
+                <label>New Password</label>
+
+            </div>
+
+            <div class="texto_field">
+                <input type="Confirm new password" required>
+                <span></span>
+                <label>Confirm new Palavra-Chave</label>
+
+            </div>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
